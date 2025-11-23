@@ -1,0 +1,442 @@
+[gd_scene load_steps=67 format=3 uid="uid://di6eorxnxe5e0"]
+
+[ext_resource type="Script" uid="uid://ctt4jy5o6fy8i" path="res://cenavezes.gd" id="1_bu8ni"]
+[ext_resource type="Script" uid="uid://4ssky8o7a05n" path="res://script/resources/theme.gd" id="2_6tjkm"]
+[ext_resource type="Texture2D" uid="uid://d0tlbi2pr41wy" path="res://images/preto.jpg" id="2_e2bka"]
+[ext_resource type="Texture2D" uid="uid://xpjckhoo56m1" path="res://images/cenariovezes.png" id="3_bu8ni"]
+[ext_resource type="Texture2D" uid="uid://tiry2n8lok5k" path="res://images/parale.png" id="3_en6ku"]
+[ext_resource type="Script" uid="uid://d3hkwsco3uj83" path="res://script/resources/question.gd" id="3_nqspx"]
+[ext_resource type="Texture2D" uid="uid://stimdrtor0py" path="res://images/losa.jpg" id="4_pqb8i"]
+[ext_resource type="Resource" uid="uid://bnrxfudjhj3bv" path="res://resources real/varied/question/Questão Vezes/2x8.tres" id="4_w4ptv"]
+[ext_resource type="Resource" uid="uid://cuqs4urvklkst" path="res://resources real/varied/question/Questão Vezes/3x4.tres" id="5_u5c31"]
+[ext_resource type="Script" uid="uid://ctg27oqqa3gxe" path="res://script/controllers/scriptogro.gd" id="5_utwqs"]
+[ext_resource type="Resource" uid="uid://bfnishvjcsqad" path="res://resources real/varied/question/Questão Vezes/3x7.tres" id="6_yccfi"]
+[ext_resource type="Texture2D" uid="uid://mv84iy74wdud" path="res://images/vezesachoquetacerto.png" id="7_e2bka"]
+[ext_resource type="Resource" uid="uid://bko4tstblkk8c" path="res://resources real/varied/question/Questão Vezes/4x5.tres" id="7_jleii"]
+[ext_resource type="Texture2D" uid="uid://cd5tfhxfn3ols" path="res://images/vezesrespirandoooo (1).png" id="8_en6ku"]
+[ext_resource type="Resource" uid="uid://b0un2k2rdklp3" path="res://resources real/varied/question/Questão Vezes/4x9.tres" id="8_y3ys5"]
+[ext_resource type="Resource" uid="uid://bw6h0yu4jqhr4" path="res://resources real/varied/question/Questão Vezes/5x6.tres" id="9_a30vs"]
+[ext_resource type="Script" uid="uid://c3rbakuyucr88" path="res://script/controllers/playercodigo.gd" id="9_rrubq"]
+[ext_resource type="Texture2D" uid="uid://be7ux10b3ae8e" path="res://images/SABLEDANO (1) (1).png" id="10_njwuo"]
+[ext_resource type="Resource" uid="uid://dv6fx0hm1kigj" path="res://resources real/varied/question/Questão Vezes/5x9.tres" id="10_ws5vx"]
+[ext_resource type="Resource" uid="uid://jvurfblsifyb" path="res://resources real/varied/question/Questão Vezes/6x6.tres" id="11_ddw6v"]
+[ext_resource type="Texture2D" uid="uid://douip5jcy52gu" path="res://images/vezestoman.png" id="11_pqb8i"]
+[ext_resource type="Resource" uid="uid://s6nea6jr6b4y" path="res://resources real/varied/question/Questão Vezes/6x9.tres" id="12_ej8ds"]
+[ext_resource type="Texture2D" uid="uid://dia80kqujmljl" path="res://images/SABLETOMANDO (2) (1).png" id="12_mvs5d"]
+[ext_resource type="Resource" uid="uid://c7wus3m1fuv1j" path="res://resources real/varied/question/Questão Vezes/7x6.tres" id="13_afmrl"]
+[ext_resource type="Texture2D" uid="uid://bwotg8f2eduas" path="res://images/f (1).png" id="13_en6ku"]
+[ext_resource type="Resource" uid="uid://dm6q37feud2i8" path="res://resources real/varied/question/Questão Vezes/7x8.tres" id="14_e7m70"]
+[ext_resource type="Resource" uid="uid://b6x354w41fxm2" path="res://resources real/varied/question/Questão Vezes/8x5.tres" id="15_37nya"]
+[ext_resource type="Resource" uid="uid://c6lo5eu2iyat2" path="res://resources real/varied/question/Questão Vezes/8x8.tres" id="16_nxgnh"]
+[ext_resource type="Resource" uid="uid://p36r2q63f20" path="res://resources real/varied/question/Questão Vezes/9x3.tres" id="17_05y87"]
+[ext_resource type="Resource" uid="uid://ds7q2ol0r6oy4" path="res://resources real/varied/question/Questão Vezes/9x5.tres" id="18_341j7"]
+[ext_resource type="Resource" uid="uid://yp25gs4i2br4" path="res://resources real/varied/question/Questão Vezes/9x9.tres" id="19_thy7h"]
+[ext_resource type="Resource" uid="uid://d3ha5535v0fnk" path="res://resources real/varied/question/Questão Vezes/10x7.tres" id="20_ngoc2"]
+[ext_resource type="Resource" uid="uid://br6svljrb718a" path="res://resources real/varied/question/Questão Vezes/12x2.tres" id="21_5v34v"]
+[ext_resource type="Resource" uid="uid://dg67mc0piq7dj" path="res://resources real/varied/question/Questão Vezes/12x3.tres" id="22_7p6wt"]
+[ext_resource type="Resource" uid="uid://cmuu7e25ta3t8" path="res://resources real/varied/question/Questão Vezes/11x3.tres" id="23_u25ax"]
+
+[sub_resource type="Resource" id="Resource_y6dp3"]
+script = ExtResource("2_6tjkm")
+theme = Array[ExtResource("3_nqspx")]([ExtResource("4_w4ptv"), ExtResource("5_u5c31"), ExtResource("6_yccfi"), ExtResource("7_jleii"), ExtResource("8_y3ys5"), ExtResource("9_a30vs"), ExtResource("10_ws5vx"), ExtResource("11_ddw6v"), ExtResource("12_ej8ds"), ExtResource("13_afmrl"), ExtResource("14_e7m70"), ExtResource("15_37nya"), ExtResource("16_nxgnh"), ExtResource("17_05y87"), ExtResource("18_341j7"), ExtResource("19_thy7h"), ExtResource("20_ngoc2"), ExtResource("21_5v34v"), ExtResource("22_7p6wt"), ExtResource("23_u25ax")])
+metadata/_custom_type_script = "uid://4ssky8o7a05n"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqb8i"]
+atlas = ExtResource("7_e2bka")
+region = Rect2(0, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_utwqs"]
+atlas = ExtResource("7_e2bka")
+region = Rect2(384, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pa4d0"]
+atlas = ExtResource("7_e2bka")
+region = Rect2(768, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_or6l1"]
+atlas = ExtResource("7_e2bka")
+region = Rect2(1152, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxgte"]
+atlas = ExtResource("8_en6ku")
+region = Rect2(0, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rrubq"]
+atlas = ExtResource("8_en6ku")
+region = Rect2(384, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_njwuo"]
+atlas = ExtResource("8_en6ku")
+region = Rect2(768, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b5wrl"]
+atlas = ExtResource("8_en6ku")
+region = Rect2(1152, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6tjkm"]
+atlas = ExtResource("8_en6ku")
+region = Rect2(1152, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nqspx"]
+atlas = ExtResource("8_en6ku")
+region = Rect2(768, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w4ptv"]
+atlas = ExtResource("8_en6ku")
+region = Rect2(384, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u5c31"]
+atlas = ExtResource("8_en6ku")
+region = Rect2(0, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mvs5d"]
+atlas = ExtResource("11_pqb8i")
+region = Rect2(0, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7vj7g"]
+atlas = ExtResource("11_pqb8i")
+region = Rect2(378, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1wvok"]
+atlas = ExtResource("11_pqb8i")
+region = Rect2(756, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jsu4q"]
+atlas = ExtResource("11_pqb8i")
+region = Rect2(1134, 0, 378, 864)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mvs5d"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqb8i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_utwqs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pa4d0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_or6l1")
+}],
+"loop": true,
+"name": &"dano",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vxgte")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rrubq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_njwuo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b5wrl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6tjkm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nqspx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w4ptv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u5c31")
+}],
+"loop": true,
+"name": &"parado",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mvs5d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7vj7g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1wvok")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jsu4q")
+}],
+"loop": true,
+"name": &"tomano",
+"speed": 4.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rcg7s"]
+atlas = ExtResource("10_njwuo")
+region = Rect2(0, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c66ab"]
+atlas = ExtResource("10_njwuo")
+region = Rect2(376, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eoa7m"]
+atlas = ExtResource("10_njwuo")
+region = Rect2(752, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tkmd4"]
+atlas = ExtResource("10_njwuo")
+region = Rect2(1128, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e7ilh"]
+atlas = ExtResource("13_en6ku")
+region = Rect2(0, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5x7i"]
+atlas = ExtResource("13_en6ku")
+region = Rect2(378, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_58hik"]
+atlas = ExtResource("13_en6ku")
+region = Rect2(756, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_odiet"]
+atlas = ExtResource("13_en6ku")
+region = Rect2(1134, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rtama"]
+atlas = ExtResource("12_mvs5d")
+region = Rect2(0, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hjm0e"]
+atlas = ExtResource("12_mvs5d")
+region = Rect2(384, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qqifl"]
+atlas = ExtResource("12_mvs5d")
+region = Rect2(768, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uw1i2"]
+atlas = ExtResource("12_mvs5d")
+region = Rect2(1152, 0, 384, 864)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ej0a7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rcg7s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c66ab")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eoa7m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tkmd4")
+}],
+"loop": true,
+"name": &"dardano",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e7ilh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5x7i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_58hik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_odiet")
+}],
+"loop": true,
+"name": &"parado",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rtama")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hjm0e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qqifl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uw1i2")
+}],
+"loop": true,
+"name": &"tomanocu",
+"speed": 4.0
+}]
+
+[node name="Cena Vezes" type="Node2D"]
+script = ExtResource("1_bu8ni")
+quiz = SubResource("Resource_y6dp3")
+color_right = Color(0, 1, 0, 1)
+color_wrong = Color(1, 0, 0, 1)
+
+[node name="Preto" type="Sprite2D" parent="."]
+position = Vector2(902.75, 363)
+scale = Vector2(3.31778, 3.26)
+texture = ExtResource("2_e2bka")
+
+[node name="Cenariovezes" type="Sprite2D" parent="."]
+position = Vector2(900.5, 357.5)
+scale = Vector2(0.485026, 0.704102)
+texture = ExtResource("3_bu8ni")
+
+[node name="Parale2" type="Sprite2D" parent="."]
+position = Vector2(573.5, 35.25)
+scale = Vector2(2.44792, 1.04167)
+texture = ExtResource("3_en6ku")
+
+[node name="Losa" type="Sprite2D" parent="."]
+position = Vector2(265, 359)
+scale = Vector2(0.862745, 2.09884)
+texture = ExtResource("4_pqb8i")
+
+[node name="Content" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Questão" type="VBoxContainer" parent="Content"]
+layout_mode = 1
+offset_left = 27.0
+offset_top = 110.0
+offset_right = 507.0
+offset_bottom = 238.0
+
+[node name="Label" type="Label" parent="Content/Questão"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 80
+text = "Pergunta"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Resposta" type="VBoxContainer" parent="Content"]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 330.0
+offset_right = 501.0
+offset_bottom = 645.0
+theme_override_constants/separation = 20
+
+[node name="Button" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Button2" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Button3" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Button4" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Tempo" type="Label" parent="Content"]
+layout_mode = 0
+offset_left = 410.0
+offset_top = 50.0
+offset_right = 533.0
+offset_bottom = 91.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Tempo"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Acertos" type="Label" parent="Content"]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 45.0
+offset_right = 168.0
+offset_bottom = 85.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+autostart = true
+
+[node name="Parale" type="Sprite2D" parent="."]
+position = Vector2(1161.5, 687)
+scale = Vector2(1.44097, 1.55556)
+texture = ExtResource("3_en6ku")
+
+[node name="VidaBoss" type="Label" parent="."]
+offset_left = 559.0
+offset_top = 18.0
+offset_right = 733.0
+offset_bottom = 81.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+
+[node name="VidaTexto" type="Label" parent="."]
+offset_left = 1053.0
+offset_top = 633.0
+offset_right = 1173.0
+offset_bottom = 675.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ManaTexto" type="Label" parent="."]
+offset_left = 1086.0
+offset_top = 675.0
+offset_right = 1178.0
+offset_bottom = 710.0
+theme_override_colors/font_color = Color(0, 0.0156863, 1, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="NomeCaloca" type="Label" parent="."]
+offset_left = 1173.0
+offset_top = 602.0
+offset_right = 1268.0
+offset_bottom = 653.0
+theme_override_colors/font_color = Color(0.00392157, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "Caloca"
+
+[node name="Vezes" type="CharacterBody2D" parent="."]
+script = ExtResource("5_utwqs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Vezes"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Vezes"]
+position = Vector2(1093, 266)
+scale = Vector2(1.00781, 0.902778)
+sprite_frames = SubResource("SpriteFrames_mvs5d")
+animation = &"parado"
+frame_progress = 0.783147
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("9_rrubq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player"]
+position = Vector2(712.995, 536.523)
+scale = Vector2(0.566112, 0.408619)
+sprite_frames = SubResource("SpriteFrames_ej0a7")
+animation = &"parado"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=3 uid="uid://tva2dtdet126"]
+
+[ext_resource type="Script" uid="uid://u4yxuwyxbowm" path="res://script/controllers/gameover.gd" id="1_4nh4k"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4nh4k")
+
+[node name="GameOver" type="ColorRect" parent="."]
+layout_mode = 0
+offset_top = -5.0
+offset_right = 1290.0
+offset_bottom = 730.0
+color = Color(1, 0, 0, 1)
+
+[node name="Você Perdeu" type="Label" parent="GameOver"]
+layout_mode = 0
+offset_right = 1278.0
+offset_bottom = 502.0
+theme_override_font_sizes/font_size = 80
+text = "Você Falhou"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="GameOver"]
+layout_mode = 0
+offset_left = 461.0
+offset_top = 395.0
+offset_right = 832.0
+offset_bottom = 458.0
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 30
+text = "Tentar Novamente"
+
+[connection signal="pressed" from="GameOver/Button" to="." method="_on_button_pressed"]

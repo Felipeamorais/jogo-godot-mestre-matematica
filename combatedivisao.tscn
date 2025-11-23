@@ -1,0 +1,419 @@
+[gd_scene load_steps=63 format=3 uid="uid://l0qiytblagj7"]
+
+[ext_resource type="Script" uid="uid://crqbe74rf4sn5" path="res://combatedivisao.gd" id="1_yhhcg"]
+[ext_resource type="Script" uid="uid://4ssky8o7a05n" path="res://script/resources/theme.gd" id="2_8brf7"]
+[ext_resource type="Script" uid="uid://d3hkwsco3uj83" path="res://script/resources/question.gd" id="3_sod0n"]
+[ext_resource type="Resource" uid="uid://7kiet207dtxi" path="res://resources real/varied/question/Questão Divisão/9 3.tres" id="4_13qvf"]
+[ext_resource type="Resource" uid="uid://cvxgogbvf4o4y" path="res://resources real/varied/question/Questão Divisão/10 2.tres" id="5_plqb4"]
+[ext_resource type="Resource" uid="uid://cfm5dgw0f23ek" path="res://resources real/varied/question/Questão Divisão/12 3.tres" id="6_5aebh"]
+[ext_resource type="Resource" uid="uid://bxmh7k6pyroix" path="res://resources real/varied/question/Questão Divisão/15 3.tres" id="7_e5ipv"]
+[ext_resource type="Resource" uid="uid://cqxv6qbtqi02m" path="res://resources real/varied/question/Questão Divisão/16 4.tres" id="8_ssf5v"]
+[ext_resource type="Resource" uid="uid://nd306pk0mu6i" path="res://resources real/varied/question/Questão Divisão/18 6.tres" id="9_mp27o"]
+[ext_resource type="Resource" uid="uid://bn07ocuaeslcw" path="res://resources real/varied/question/Questão Divisão/18 9.tres" id="10_wxpv2"]
+[ext_resource type="Resource" uid="uid://cow6p4r8cq8tf" path="res://resources real/varied/question/Questão Divisão/20 5.tres" id="11_igt8m"]
+[ext_resource type="Resource" uid="uid://h05tv1xqfous" path="res://resources real/varied/question/Questão Divisão/21 7.tres" id="12_0dda6"]
+[ext_resource type="Resource" uid="uid://ynf6grqk03x6" path="res://resources real/varied/question/Questão Divisão/24 8.tres" id="13_lo1ji"]
+[ext_resource type="Resource" uid="uid://co1snrx014xrv" path="res://resources real/varied/question/Questão Divisão/25 5.tres" id="14_i1e2n"]
+[ext_resource type="Resource" uid="uid://615k00a7ahqo" path="res://resources real/varied/question/Questão Divisão/27 3.tres" id="15_ib40y"]
+[ext_resource type="Resource" uid="uid://l8uihn1h2v6k" path="res://resources real/varied/question/Questão Divisão/30 6.tres" id="16_uxhig"]
+[ext_resource type="Resource" uid="uid://6x00p73raj2" path="res://resources real/varied/question/Questão Divisão/32 8.tres" id="17_q211b"]
+[ext_resource type="Resource" uid="uid://cq3tx82rim4yw" path="res://resources real/varied/question/Questão Divisão/36 6.tres" id="18_fldgw"]
+[ext_resource type="Resource" uid="uid://nbon2yq773jy" path="res://resources real/varied/question/Questão Divisão/40 5.tres" id="19_0bcck"]
+[ext_resource type="Resource" uid="uid://c3kitaeavdb21" path="res://resources real/varied/question/Questão Divisão/45 9.tres" id="20_oiirq"]
+[ext_resource type="Resource" uid="uid://c7e3jq4ly2lvh" path="res://resources real/varied/question/Questão Divisão/49 7.tres" id="21_dg5io"]
+[ext_resource type="Resource" uid="uid://bfwijgjitgat8" path="res://resources real/varied/question/Questão Divisão/56 8.tres" id="22_ko3lf"]
+[ext_resource type="Resource" uid="uid://33jkm8c6tlwx" path="res://resources real/varied/question/Questão Divisão/81 9.tres" id="23_np0fs"]
+[ext_resource type="Texture2D" uid="uid://d0tlbi2pr41wy" path="res://images/preto.jpg" id="24_dw175"]
+[ext_resource type="Texture2D" uid="uid://b2hyhns4gbxc2" path="res://images/cenariodivisao.jpg" id="25_7bms7"]
+[ext_resource type="Texture2D" uid="uid://tiry2n8lok5k" path="res://images/parale.png" id="26_o5ps7"]
+[ext_resource type="Texture2D" uid="uid://stimdrtor0py" path="res://images/losa.jpg" id="27_ffllu"]
+[ext_resource type="Texture2D" uid="uid://dv06flyd3y0ke" path="res://images/unnamed (2).webp" id="28_13qvf"]
+[ext_resource type="Script" uid="uid://c3rbakuyucr88" path="res://script/controllers/playercodigo.gd" id="28_xuq7w"]
+[ext_resource type="Texture2D" uid="uid://dqplfjx4xjlxw" path="res://images/divisaorespirano.webp" id="29_13qvf"]
+[ext_resource type="Texture2D" uid="uid://be7ux10b3ae8e" path="res://images/SABLEDANO (1) (1).png" id="29_rnwqy"]
+[ext_resource type="Texture2D" uid="uid://b223yg63ei30i" path="res://images/unnamed (1).webp" id="30_5aebh"]
+[ext_resource type="Texture2D" uid="uid://bwotg8f2eduas" path="res://images/f (1).png" id="30_u1ylo"]
+[ext_resource type="Texture2D" uid="uid://dia80kqujmljl" path="res://images/SABLETOMANDO (2) (1).png" id="31_fxuy1"]
+
+[sub_resource type="Resource" id="Resource_13qvf"]
+script = ExtResource("2_8brf7")
+theme = Array[ExtResource("3_sod0n")]([ExtResource("4_13qvf"), ExtResource("5_plqb4"), ExtResource("6_5aebh"), ExtResource("7_e5ipv"), ExtResource("8_ssf5v"), ExtResource("9_mp27o"), ExtResource("10_wxpv2"), ExtResource("11_igt8m"), ExtResource("12_0dda6"), ExtResource("13_lo1ji"), ExtResource("14_i1e2n"), ExtResource("15_ib40y"), ExtResource("16_uxhig"), ExtResource("17_q211b"), ExtResource("18_fldgw"), ExtResource("19_0bcck"), ExtResource("20_oiirq"), ExtResource("21_dg5io"), ExtResource("22_ko3lf"), ExtResource("23_np0fs")])
+metadata/_custom_type_script = "uid://4ssky8o7a05n"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e5ipv"]
+atlas = ExtResource("28_13qvf")
+region = Rect2(0, 0, 371, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ssf5v"]
+atlas = ExtResource("28_13qvf")
+region = Rect2(371, 0, 371, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mp27o"]
+atlas = ExtResource("28_13qvf")
+region = Rect2(742, 0, 371, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wxpv2"]
+atlas = ExtResource("28_13qvf")
+region = Rect2(1113, 0, 371, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_plqb4"]
+atlas = ExtResource("29_13qvf")
+region = Rect2(0, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5aebh"]
+atlas = ExtResource("29_13qvf")
+region = Rect2(384, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_igt8m"]
+atlas = ExtResource("29_13qvf")
+region = Rect2(768, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0dda6"]
+atlas = ExtResource("29_13qvf")
+region = Rect2(768, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lo1ji"]
+atlas = ExtResource("29_13qvf")
+region = Rect2(384, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i1e2n"]
+atlas = ExtResource("29_13qvf")
+region = Rect2(0, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q211b"]
+atlas = ExtResource("30_5aebh")
+region = Rect2(0, 0, 396, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fldgw"]
+atlas = ExtResource("30_5aebh")
+region = Rect2(396, 0, 396, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0bcck"]
+atlas = ExtResource("30_5aebh")
+region = Rect2(792, 0, 396, 864)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oiirq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e5ipv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ssf5v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mp27o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wxpv2")
+}],
+"loop": true,
+"name": &"dano",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_plqb4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5aebh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_igt8m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0dda6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lo1ji")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i1e2n")
+}],
+"loop": true,
+"name": &"parado",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q211b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fldgw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0bcck")
+}],
+"loop": true,
+"name": &"tomano",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rcg7s"]
+atlas = ExtResource("29_rnwqy")
+region = Rect2(0, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c66ab"]
+atlas = ExtResource("29_rnwqy")
+region = Rect2(376, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eoa7m"]
+atlas = ExtResource("29_rnwqy")
+region = Rect2(752, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tkmd4"]
+atlas = ExtResource("29_rnwqy")
+region = Rect2(1128, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e7ilh"]
+atlas = ExtResource("30_u1ylo")
+region = Rect2(0, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5x7i"]
+atlas = ExtResource("30_u1ylo")
+region = Rect2(378, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_58hik"]
+atlas = ExtResource("30_u1ylo")
+region = Rect2(756, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_odiet"]
+atlas = ExtResource("30_u1ylo")
+region = Rect2(1134, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rtama"]
+atlas = ExtResource("31_fxuy1")
+region = Rect2(0, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hjm0e"]
+atlas = ExtResource("31_fxuy1")
+region = Rect2(384, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qqifl"]
+atlas = ExtResource("31_fxuy1")
+region = Rect2(768, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uw1i2"]
+atlas = ExtResource("31_fxuy1")
+region = Rect2(1152, 0, 384, 864)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ej0a7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rcg7s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c66ab")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eoa7m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tkmd4")
+}],
+"loop": true,
+"name": &"dardano",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e7ilh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5x7i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_58hik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_odiet")
+}],
+"loop": true,
+"name": &"parado",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rtama")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hjm0e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qqifl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uw1i2")
+}],
+"loop": true,
+"name": &"tomanocu",
+"speed": 4.0
+}]
+
+[node name="Cena Divisão" type="Node2D"]
+script = ExtResource("1_yhhcg")
+quiz = SubResource("Resource_13qvf")
+color_right = Color(0, 1, 0, 1)
+color_wrong = Color(1, 0, 0, 1)
+
+[node name="Preto" type="Sprite2D" parent="."]
+position = Vector2(902.75, 363)
+scale = Vector2(3.31778, 3.26)
+texture = ExtResource("24_dw175")
+
+[node name="Cenariodivisao" type="Sprite2D" parent="."]
+position = Vector2(903.5, 361)
+scale = Vector2(0.48763, 0.708984)
+texture = ExtResource("25_7bms7")
+
+[node name="Parale2" type="Sprite2D" parent="."]
+position = Vector2(573.5, 35.25)
+scale = Vector2(2.44792, 1.04167)
+texture = ExtResource("26_o5ps7")
+
+[node name="Losa" type="Sprite2D" parent="."]
+position = Vector2(265, 359)
+scale = Vector2(0.862745, 2.09884)
+texture = ExtResource("27_ffllu")
+
+[node name="Content" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Questão" type="VBoxContainer" parent="Content"]
+layout_mode = 1
+offset_left = 27.0
+offset_top = 110.0
+offset_right = 507.0
+offset_bottom = 238.0
+
+[node name="Label" type="Label" parent="Content/Questão"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 80
+text = "Pergunta"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Resposta" type="VBoxContainer" parent="Content"]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 330.0
+offset_right = 501.0
+offset_bottom = 645.0
+theme_override_constants/separation = 20
+
+[node name="Button" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Button2" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Button3" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Button4" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Tempo" type="Label" parent="Content"]
+layout_mode = 0
+offset_left = 410.0
+offset_top = 50.0
+offset_right = 533.0
+offset_bottom = 91.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Tempo"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Acertos" type="Label" parent="Content"]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 45.0
+offset_right = 168.0
+offset_bottom = 85.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+autostart = true
+
+[node name="Parale" type="Sprite2D" parent="."]
+position = Vector2(1161.5, 687)
+scale = Vector2(1.44097, 1.55556)
+texture = ExtResource("26_o5ps7")
+
+[node name="VidaBoss" type="Label" parent="."]
+offset_left = 559.0
+offset_top = 18.0
+offset_right = 733.0
+offset_bottom = 81.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+
+[node name="VidaTexto" type="Label" parent="."]
+offset_left = 1053.0
+offset_top = 633.0
+offset_right = 1173.0
+offset_bottom = 675.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ManaTexto" type="Label" parent="."]
+offset_left = 1086.0
+offset_top = 675.0
+offset_right = 1178.0
+offset_bottom = 710.0
+theme_override_colors/font_color = Color(0, 0.0156863, 1, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="NomeCaloca" type="Label" parent="."]
+offset_left = 1173.0
+offset_top = 602.0
+offset_right = 1268.0
+offset_bottom = 653.0
+theme_override_colors/font_color = Color(0.00392157, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "Caloca"
+
+[node name="Divisão" type="CharacterBody2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Divisão"]
+position = Vector2(1081, 427)
+scale = Vector2(0.552083, 0.361111)
+sprite_frames = SubResource("SpriteFrames_oiirq")
+animation = &"parado"
+frame_progress = 0.889167
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Divisão"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("28_xuq7w")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player"]
+position = Vector2(657.251, 515.131)
+scale = Vector2(0.41666, 0.296599)
+sprite_frames = SubResource("SpriteFrames_ej0a7")
+animation = &"parado"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

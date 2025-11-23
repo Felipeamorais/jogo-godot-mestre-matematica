@@ -1,0 +1,58 @@
+[gd_scene load_steps=3 format=3 uid="uid://cf1lfibi528v6"]
+
+[ext_resource type="Script" uid="uid://drlbinpcrv43k" path="res://script/controllers/tela_de_aviso.gd" id="1_cang7"]
+[ext_resource type="Texture2D" uid="uid://d0tlbi2pr41wy" path="res://images/preto.jpg" id="2_4dy8q"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cang7")
+
+[node name="Preto" type="Sprite2D" parent="."]
+position = Vector2(619, 357.5)
+scale = Vector2(5.92, 3.27556)
+texture = ExtResource("2_4dy8q")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = -2.0
+offset_top = 35.0
+offset_right = 1282.0
+offset_bottom = 218.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 80
+text = "Aviso"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = -4.0
+offset_top = 127.0
+offset_right = 1316.0
+offset_bottom = 604.0
+theme_override_font_sizes/font_size = 27
+text = "O jogo a seguir é um PlayTest de um projeto Futuro.
+Você possui 10 segundos para responder cada pergunta, 
+assim que o tempo encerrar a pergunta passa e sua vida diminui.
+O jogador tem 3 vidas, caso erre 3 questões ou o tempo acabe a vida é perdida.
+Os sistemas de Acerto e Erro não estão visuais, podendo assim ocasionar desentendimento
+
+Deseja Continuar?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 473.0
+offset_top = 550.0
+offset_right = 809.0
+offset_bottom = 620.0
+theme_override_font_sizes/font_size = 30
+text = "Continuar"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

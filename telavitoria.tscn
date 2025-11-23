@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://bg3pqnwo340ot"]
+
+[ext_resource type="Script" uid="uid://bm67jejccuwld" path="res://script/controllers/telavitoria.gd" id="1_awq52"]
+[ext_resource type="Texture2D" uid="uid://bb3ajf2t7tuxl" path="res://images/telavitoria.png" id="1_iqqry"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_awq52")
+
+[node name="Telavitoria" type="Sprite2D" parent="."]
+position = Vector2(640.5, 360.25)
+scale = Vector2(0.682813, 0.714352)
+texture = ExtResource("1_iqqry")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 1275.0
+offset_bottom = 606.0
+theme_override_font_sizes/font_size = 100
+text = "Você Ganhou"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 442.0
+offset_top = 427.0
+offset_right = 821.0
+offset_bottom = 516.0
+theme_override_font_sizes/font_size = 30
+text = "Voltar ao menu incial"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="QuizTheme" load_steps=23 format=3 uid="uid://8fid3w4c47ue"]
+
+[ext_resource type="Script" uid="uid://4ssky8o7a05n" path="res://script/resources/theme.gd" id="1_ok26j"]
+[ext_resource type="Script" uid="uid://d3hkwsco3uj83" path="res://script/resources/question.gd" id="2_7q2lj"]
+[ext_resource type="Resource" uid="uid://ilcm8qv7p8ty" path="res://resources real/varied/question/Questão Menos/10-7.tres" id="3_wai1j"]
+[ext_resource type="Resource" uid="uid://b7cmstn63evk1" path="res://resources real/varied/question/Questão Menos/2-1.tres" id="4_mq5g7"]
+[ext_resource type="Resource" uid="uid://g04kt1ehrjab" path="res://resources real/varied/question/Questão Menos/14-9.tres" id="5_oalp4"]
+[ext_resource type="Resource" uid="uid://d0vuxeyavwue" path="res://resources real/varied/question/Questão Menos/15-7.tres" id="6_ks368"]
+[ext_resource type="Resource" uid="uid://bgopetormactw" path="res://resources real/varied/question/Questão Menos/20-6.tres" id="7_tw3cl"]
+[ext_resource type="Resource" uid="uid://cnnk0k1f7iumr" path="res://resources real/varied/question/Questão Menos/26-7.tres" id="8_tor65"]
+[ext_resource type="Resource" uid="uid://58qj8u188u82" path="res://resources real/varied/question/Questão Menos/50-31.tres" id="9_uljyc"]
+[ext_resource type="Resource" uid="uid://by7m2x1g3nl7o" path="res://resources real/varied/question/Questão Menos/60-22.tres" id="10_u7cja"]
+[ext_resource type="Resource" uid="uid://dg3mgwet28yxg" path="res://resources real/varied/question/Questão Menos/15-5.tres" id="11_npwjg"]
+[ext_resource type="Resource" uid="uid://dqspm7cp8woa0" path="res://resources real/varied/question/Questão Menos/17-5.tres" id="12_748fg"]
+[ext_resource type="Resource" uid="uid://cx6hmge0rwh1d" path="res://resources real/varied/question/Questão Menos/100-100.tres" id="13_20o0a"]
+[ext_resource type="Resource" uid="uid://djvpw6gip7y8o" path="res://resources real/varied/question/Questão Menos/98-14.tres" id="14_ubpbq"]
+[ext_resource type="Resource" uid="uid://d3f0c7vexjswc" path="res://resources real/varied/question/Questão Menos/77-37.tres" id="15_srdid"]
+[ext_resource type="Resource" uid="uid://djgn2wct3c5xg" path="res://resources real/varied/question/Questão Menos/30-15.tres" id="16_cooul"]
+[ext_resource type="Resource" uid="uid://baxwjfy3ny6ee" path="res://resources real/varied/question/Questão Menos/28-9.tres" id="17_mnxrk"]
+[ext_resource type="Resource" uid="uid://duvdyhiw8bqv8" path="res://resources real/varied/question/Questão Menos/12-6.tres" id="18_i4cfr"]
+[ext_resource type="Resource" uid="uid://deka6qpmmf1tw" path="res://resources real/varied/question/Questão Menos/7-4.tres" id="19_yg4ht"]
+[ext_resource type="Resource" uid="uid://bpbjwati5fbei" path="res://resources real/varied/question/Questão Menos/3-3.tres" id="20_7uatm"]
+[ext_resource type="Resource" uid="uid://bv3wxtrv74a74" path="res://resources real/varied/question/Questão Menos/8-2.tres" id="21_dg6l3"]
+[ext_resource type="Resource" uid="uid://dd4l5s7npw5vo" path="res://resources real/varied/question/Questão Menos/16-12.tres" id="22_2q5on"]
+
+[resource]
+script = ExtResource("1_ok26j")
+theme = Array[ExtResource("2_7q2lj")]([ExtResource("3_wai1j"), ExtResource("4_mq5g7"), ExtResource("5_oalp4"), ExtResource("6_ks368"), ExtResource("7_tw3cl"), ExtResource("8_tor65"), ExtResource("9_uljyc"), ExtResource("10_u7cja"), ExtResource("11_npwjg"), ExtResource("12_748fg"), ExtResource("13_20o0a"), ExtResource("14_ubpbq"), ExtResource("15_srdid"), ExtResource("16_cooul"), ExtResource("17_mnxrk"), ExtResource("18_i4cfr"), ExtResource("19_yg4ht"), ExtResource("20_7uatm"), ExtResource("21_dg6l3"), ExtResource("22_2q5on")])
+metadata/_custom_type_script = "uid://4ssky8o7a05n"

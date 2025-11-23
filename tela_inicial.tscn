@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjv5f0kxlxqwo"]
+
+[ext_resource type="Script" uid="uid://c8mpyrvcuqya0" path="res://script/controllers/tela_inicial.gd" id="1_g50o1"]
+[ext_resource type="Texture2D" uid="uid://dimja1su7o2ex" path="res://images/telainicio.jpg" id="2_g50o1"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g50o1")
+
+[node name="Telainicio" type="Sprite2D" parent="."]
+position = Vector2(665, 367.5)
+scale = Vector2(1.0375, 0.871043)
+texture = ExtResource("2_g50o1")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+offset_left = 405.0
+offset_top = 508.0
+offset_right = 893.0
+offset_bottom = 558.0
+theme_override_font_sizes/font_size = 30
+text = "Jogar"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

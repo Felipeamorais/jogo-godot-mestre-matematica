@@ -1,0 +1,185 @@
+[gd_scene load_steps=16 format=3 uid="uid://7civepjrnudg"]
+
+[ext_resource type="Texture2D" uid="uid://stimdrtor0py" path="res://images/losa.jpg" id="1_livrs"]
+[ext_resource type="Script" uid="uid://tpb67pkvxi00" path="res://script/controllers/game_controller.gd" id="1_qtk6r"]
+[ext_resource type="Texture2D" uid="uid://r7g87tagdg1m" path="res://images/testecenario.webp" id="2_75ccn"]
+[ext_resource type="Texture2D" uid="uid://d0tlbi2pr41wy" path="res://images/preto.jpg" id="2_livrs"]
+[ext_resource type="Script" uid="uid://4ssky8o7a05n" path="res://script/resources/theme.gd" id="2_sxllv"]
+[ext_resource type="Script" uid="uid://d3hkwsco3uj83" path="res://script/resources/question.gd" id="3_s6qww"]
+[ext_resource type="Resource" uid="uid://ppl8b5oxxefc" path="res://resources real/varied/question/7+8.tres" id="4_h5ckd"]
+[ext_resource type="Texture2D" uid="uid://dpnfevaecmuk" path="res://images/persoteste.webp" id="4_qtk6r"]
+[ext_resource type="Texture2D" uid="uid://q83eusy1tdnb" path="res://images/boss teste.webp" id="5_8kuf5"]
+[ext_resource type="Resource" uid="uid://cjllkdbemc44n" path="res://resources real/varied/question/10+10.tres" id="5_od1ts"]
+
+[sub_resource type="Resource" id="Resource_h5ckd"]
+script = ExtResource("2_sxllv")
+theme = Array[ExtResource("3_s6qww")]([ExtResource("4_h5ckd"), ExtResource("5_od1ts")])
+metadata/_custom_type_script = "uid://4ssky8o7a05n"
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_75ccn"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qtk6r"]
+bg_color = Color(1, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_livrs"]
+bg_color = Color(1, 0, 0, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pp3wc"]
+bg_color = Color(1, 0, 0, 1)
+
+[node name="Main" type="CanvasLayer"]
+script = ExtResource("1_qtk6r")
+quiz = SubResource("Resource_h5ckd")
+
+[node name="Losa" type="Sprite2D" parent="."]
+position = Vector2(313, 359)
+scale = Vector2(1.01961, 2.09884)
+texture = ExtResource("1_livrs")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Questão" type="VBoxContainer" parent="Control"]
+layout_mode = 1
+offset_left = 32.0
+offset_top = 49.0
+offset_right = 595.0
+offset_bottom = 407.0
+
+[node name="Tempo" type="ProgressBar" parent="Control/Questão"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+
+[node name="Label" type="Label" parent="Control/Questão"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 40
+text = "Pergunta"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="Control/Questão"]
+custom_minimum_size = Vector2(0, 250)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Control/Questão/PanelContainer"]
+layout_mode = 2
+stretch_mode = 5
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="Control/Questão/PanelContainer"]
+layout_mode = 2
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Control/Questão/PanelContainer"]
+
+[node name="Resposta" type="VBoxContainer" parent="Control"]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 395.0
+offset_right = 577.0
+offset_bottom = 609.0
+theme_override_constants/separation = 10
+
+[node name="Button" type="Button" parent="Control/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button2" type="Button" parent="Control/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button3" type="Button" parent="Control/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button4" type="Button" parent="Control/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Testecenario" type="Sprite2D" parent="Control/Resposta"]
+position = Vector2(905.5, -362)
+scale = Vector2(1.24805, 4.04692)
+texture = ExtResource("2_75ccn")
+
+[node name="Preto" type="Sprite2D" parent="."]
+position = Vector2(630, 360.875)
+scale = Vector2(0.0499998, 3.23444)
+texture = ExtResource("2_livrs")
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+offset_left = 945.0
+offset_top = 137.0
+offset_right = 1190.0
+offset_bottom = 164.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_styles/background = SubResource("StyleBoxFlat_75ccn")
+theme_override_styles/fill = SubResource("StyleBoxFlat_qtk6r")
+
+[node name="Personagem" type="Label" parent="."]
+offset_left = 692.0
+offset_top = 671.0
+offset_right = 876.0
+offset_bottom = 702.0
+text = "Personagem"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Boss" type="Label" parent="."]
+offset_left = 1010.0
+offset_top = 363.0
+offset_right = 1122.0
+offset_bottom = 392.0
+text = "Boss"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Vida" type="Label" parent="."]
+offset_left = 53.0
+offset_top = 626.0
+offset_right = 93.0
+offset_bottom = 649.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+text = "Vida"
+
+[node name="Barra de vida" type="ProgressBar" parent="Vida"]
+layout_mode = 0
+offset_top = 25.0
+offset_right = 142.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_styles/background = SubResource("StyleBoxFlat_livrs")
+theme_override_styles/fill = SubResource("StyleBoxFlat_pp3wc")
+
+[node name="Mana" type="Label" parent="."]
+offset_left = 448.0
+offset_top = 623.0
+offset_right = 493.0
+offset_bottom = 646.0
+theme_override_colors/font_color = Color(0, 1, 1, 1)
+text = "Mana"
+
+[node name="Barra de vida2" type="ProgressBar" parent="Mana"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 27.0
+offset_right = 144.0
+offset_bottom = 55.0
+theme_override_colors/font_color = Color(0, 1, 1, 1)
+theme_override_styles/background = SubResource("StyleBoxFlat_livrs")
+theme_override_styles/fill = SubResource("StyleBoxFlat_pp3wc")
+
+[node name="Persoteste" type="Sprite2D" parent="."]
+position = Vector2(787, 570)
+scale = Vector2(0.315252, 0.349057)
+texture = ExtResource("4_qtk6r")
+
+[node name="BossTeste" type="Sprite2D" parent="."]
+position = Vector2(1058, 259)
+scale = Vector2(0.41706, 0.384696)
+texture = ExtResource("5_8kuf5")

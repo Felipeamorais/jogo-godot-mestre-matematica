@@ -1,0 +1,460 @@
+[gd_scene load_steps=121 format=3 uid="uid://cq1kj72jjav5"]
+
+[ext_resource type="Script" uid="uid://dx8lrgsjxna3r" path="res://bossfinal.gd" id="1_yjynl"]
+[ext_resource type="Script" uid="uid://4ssky8o7a05n" path="res://script/resources/theme.gd" id="2_6svnn"]
+[ext_resource type="Texture2D" uid="uid://d0tlbi2pr41wy" path="res://images/preto.jpg" id="2_fluq4"]
+[ext_resource type="Texture2D" uid="uid://tiry2n8lok5k" path="res://images/parale.png" id="3_6svnn"]
+[ext_resource type="Script" uid="uid://d3hkwsco3uj83" path="res://script/resources/question.gd" id="3_qkp2p"]
+[ext_resource type="Resource" uid="uid://chl2tw8tjl5wm" path="res://resources real/varied/question/Questão Boss Final/12+7.tres" id="4_pxydg"]
+[ext_resource type="Texture2D" uid="uid://stimdrtor0py" path="res://images/losa.jpg" id="4_qkp2p"]
+[ext_resource type="Resource" uid="uid://ket0mhxs3i2e" path="res://resources real/varied/question/Questão Boss Final/25+16.tres" id="5_n1iq2"]
+[ext_resource type="Texture2D" uid="uid://dag5ro4ijkavy" path="res://images/cenabossfinal.webp" id="6_gpmd4"]
+[ext_resource type="Resource" uid="uid://c6gqsec4p8tdc" path="res://resources real/varied/question/Questão Boss Final/14+23.tres" id="6_vvvjs"]
+[ext_resource type="Resource" uid="uid://b4amalx6yt1tt" path="res://resources real/varied/question/Questão Boss Final/9+8.tres" id="7_3mmmy"]
+[ext_resource type="Texture2D" uid="uid://c3ce3lu870yju" path="res://images/bossfinaldanodano.webp" id="7_6svnn"]
+[ext_resource type="Script" uid="uid://c3rbakuyucr88" path="res://script/controllers/playercodigo.gd" id="8_esugs"]
+[ext_resource type="Resource" uid="uid://b7amo0iex4jy2" path="res://resources real/varied/question/Questão Boss Final/31+12.tres" id="8_ox7s5"]
+[ext_resource type="Texture2D" uid="uid://dlxljifj4m3gr" path="res://images/bossfinalparado.webp" id="8_pxydg"]
+[ext_resource type="Resource" uid="uid://015xlpqjfigt" path="res://resources real/varied/question/Questão Boss Final/28+9.tres" id="9_f7u3l"]
+[ext_resource type="Texture2D" uid="uid://op7l3260utg5" path="res://images/bossfinaldano.webp" id="9_gpmd4"]
+[ext_resource type="Texture2D" uid="uid://be7ux10b3ae8e" path="res://images/SABLEDANO (1) (1).png" id="9_tgi4i"]
+[ext_resource type="Texture2D" uid="uid://bwotg8f2eduas" path="res://images/f (1).png" id="10_0flwe"]
+[ext_resource type="Resource" uid="uid://cdmcnscfit302" path="res://resources real/varied/question/Questão Boss Final/15+15.tres" id="10_72c2t"]
+[ext_resource type="Resource" uid="uid://brdqo3cgp88c1" path="res://resources real/varied/question/Questão Boss Final/28+18.tres" id="11_1nmsd"]
+[ext_resource type="Texture2D" uid="uid://dia80kqujmljl" path="res://images/SABLETOMANDO (2) (1).png" id="11_n25di"]
+[ext_resource type="Resource" uid="uid://gvixyp3fk6yw" path="res://resources real/varied/question/Questão Boss Final/13+27.tres" id="12_c5nvi"]
+[ext_resource type="Resource" uid="uid://go5srr7mmbdi" path="res://resources real/varied/question/Questão Boss Final/17+19.tres" id="13_8xbp3"]
+[ext_resource type="Resource" uid="uid://cvxtwq5u40w" path="res://resources real/varied/question/Questão Boss Final/20+25.tres" id="14_cdcmm"]
+[ext_resource type="Resource" uid="uid://bcd4fnpl8w434" path="res://resources real/varied/question/Questão Boss Final/33+11.tres" id="15_em1bk"]
+[ext_resource type="Resource" uid="uid://f684hmtfwncf" path="res://resources real/varied/question/Questão Boss Final/8+12.tres" id="16_oqjvi"]
+[ext_resource type="Resource" uid="uid://dipl0xgk54iw8" path="res://resources real/varied/question/Questão Boss Final/29+10.tres" id="17_bg5gb"]
+[ext_resource type="Resource" uid="uid://bsruf68lqwfcc" path="res://resources real/varied/question/Questão Boss Final/7+33.tres" id="18_7jaj8"]
+[ext_resource type="Resource" uid="uid://cupiotkk016a5" path="res://resources real/varied/question/Questão Boss Final/16+22.tres" id="19_t5tpf"]
+[ext_resource type="Resource" uid="uid://bc3rdex3nf0hl" path="res://resources real/varied/question/Questão Boss Final/8+14.tres" id="20_kenco"]
+[ext_resource type="Resource" uid="uid://cxmlkgh8p7gjt" path="res://resources real/varied/question/Questão Boss Final/46+5.tres" id="21_heneh"]
+[ext_resource type="Resource" uid="uid://csbfswj70l657" path="res://resources real/varied/question/Questão Boss Final/26+14.tres" id="22_qpyiy"]
+[ext_resource type="Resource" uid="uid://8gpd47yjsxxy" path="res://resources real/varied/question/Questão Boss Final/80+13.tres" id="23_b8llc"]
+[ext_resource type="Resource" uid="uid://bc7uw3r33bwvt" path="res://resources real/varied/question/Questão Boss Final/62+13.tres" id="24_y7yaa"]
+[ext_resource type="Resource" uid="uid://wu5vlj1sqn8v" path="res://resources real/varied/question/Questão Boss Final/20-8.tres" id="25_mlc0m"]
+[ext_resource type="Resource" uid="uid://d0h7isv5rnamj" path="res://resources real/varied/question/Questão Boss Final/30-17.tres" id="26_6tqg1"]
+[ext_resource type="Resource" uid="uid://c3qwfgmn7fnva" path="res://resources real/varied/question/Questão Boss Final/45-23.tres" id="27_xmin6"]
+[ext_resource type="Resource" uid="uid://g5ytwkmsmpea" path="res://resources real/varied/question/Questão Boss Final/19-9.tres" id="28_nxvvw"]
+[ext_resource type="Resource" uid="uid://7afsnqleyu1a" path="res://resources real/varied/question/Questão Boss Final/28-12.tres" id="29_yplgo"]
+[ext_resource type="Resource" uid="uid://b38385hpba13x" path="res://resources real/varied/question/Questão Boss Final/40-27.tres" id="30_ushm4"]
+[ext_resource type="Resource" uid="uid://b8lpkdsw2a8qn" path="res://resources real/varied/question/Questão Boss Final/33-11.tres" id="31_1ymgq"]
+[ext_resource type="Resource" uid="uid://l1uqt3x08en0" path="res://resources real/varied/question/Questão Boss Final/14-6.tres" id="32_upjui"]
+[ext_resource type="Resource" uid="uid://p0l4q6dfpr12" path="res://resources real/varied/question/Questão Boss Final/25-8.tres" id="33_3f5d0"]
+[ext_resource type="Resource" uid="uid://de1bvt68lawfb" path="res://resources real/varied/question/Questão Boss Final/37-19.tres" id="34_hnv4n"]
+[ext_resource type="Resource" uid="uid://di5cv6476g0mo" path="res://resources real/varied/question/Questão Boss Final/50-31.tres" id="35_0gs57"]
+[ext_resource type="Resource" uid="uid://d2js3iqdcb200" path="res://resources real/varied/question/Questão Boss Final/44-22.tres" id="36_pukc7"]
+[ext_resource type="Resource" uid="uid://c0ycjp6ee56cx" path="res://resources real/varied/question/Questão Boss Final/16-9.tres" id="37_qjdvs"]
+[ext_resource type="Resource" uid="uid://co0g00rwie4o7" path="res://resources real/varied/question/Questão Boss Final/39-28.tres" id="38_hvhbe"]
+[ext_resource type="Resource" uid="uid://blu803ff6asts" path="res://resources real/varied/question/Questão Boss Final/27-18.tres" id="39_p7fyd"]
+[ext_resource type="Resource" uid="uid://dybg3f06bwsih" path="res://resources real/varied/question/Questão Boss Final/32-24.tres" id="40_n8i1b"]
+[ext_resource type="Resource" uid="uid://orbhtgi5v3ad" path="res://resources real/varied/question/Questão Boss Final/29-14.tres" id="41_fixad"]
+[ext_resource type="Resource" uid="uid://dbpqvl2birhxb" path="res://resources real/varied/question/Questão Boss Final/46-30.tres" id="42_8bo43"]
+[ext_resource type="Resource" uid="uid://b86viuhbtydg" path="res://resources real/varied/question/Questão Boss Final/18-11.tres" id="43_p528o"]
+[ext_resource type="Resource" uid="uid://bf7t1kp3ojg5l" path="res://resources real/varied/question/Questão Boss Final/50-45.tres" id="44_5jvlw"]
+[ext_resource type="Resource" uid="uid://cqoqouum4ojuv" path="res://resources real/varied/question/Questão Boss Final/3x5.tres" id="45_mcofw"]
+[ext_resource type="Resource" uid="uid://c2cfqqxvvv2qk" path="res://resources real/varied/question/Questão Boss Final/4x7.tres" id="46_8iy7j"]
+[ext_resource type="Resource" uid="uid://xjk76qua08bc" path="res://resources real/varied/question/Questão Boss Final/6x6.tres" id="47_xgvuh"]
+[ext_resource type="Resource" uid="uid://bctlowrhpyugp" path="res://resources real/varied/question/Questão Boss Final/8x3.tres" id="48_ohe7q"]
+[ext_resource type="Resource" uid="uid://criwshqoxlwcf" path="res://resources real/varied/question/Questão Boss Final/9x5.tres" id="49_lqv3p"]
+[ext_resource type="Resource" uid="uid://cy4y2dcng3v86" path="res://resources real/varied/question/Questão Boss Final/7x2.tres" id="50_uqmde"]
+[ext_resource type="Resource" uid="uid://o30v7ur03wgc" path="res://resources real/varied/question/Questão Boss Final/10x4.tres" id="51_7ucqu"]
+[ext_resource type="Resource" uid="uid://bbhc0odbmymjd" path="res://resources real/varied/question/Questão Boss Final/12x3.tres" id="52_on74l"]
+[ext_resource type="Resource" uid="uid://biwjfhvfgjghe" path="res://resources real/varied/question/Questão Boss Final/9x8.tres" id="53_2skpi"]
+[ext_resource type="Resource" uid="uid://clt7xyvo8enic" path="res://resources real/varied/question/Questão Boss Final/5x9.tres" id="54_feyt7"]
+[ext_resource type="Resource" uid="uid://cx1se0s2d3xuj" path="res://resources real/varied/question/Questão Boss Final/4x11.tres" id="55_e6tju"]
+[ext_resource type="Resource" uid="uid://42gkg741plkn" path="res://resources real/varied/question/Questão Boss Final/6x7.tres" id="56_8x7mq"]
+[ext_resource type="Resource" uid="uid://daxamnlflr8kl" path="res://resources real/varied/question/Questão Boss Final/3x9.tres" id="57_ca8ed"]
+[ext_resource type="Resource" uid="uid://b4x20faghy7uw" path="res://resources real/varied/question/Questão Boss Final/8x5.tres" id="58_b3wjl"]
+[ext_resource type="Resource" uid="uid://c2rga80sc0ion" path="res://resources real/varied/question/Questão Boss Final/2x12.tres" id="59_2q3vl"]
+[ext_resource type="Resource" uid="uid://ssp4ldht0c8n" path="res://resources real/varied/question/Questão Boss Final/10x6.tres" id="60_stio4"]
+[ext_resource type="Resource" uid="uid://kprv51q7m2cv" path="res://resources real/varied/question/Questão Boss Final/7x9.tres" id="61_el5uo"]
+[ext_resource type="Resource" uid="uid://cfsutfbmqu3wt" path="res://resources real/varied/question/Questão Boss Final/11x3.tres" id="62_l6otv"]
+[ext_resource type="Resource" uid="uid://pov6cu080v6j" path="res://resources real/varied/question/Questão Boss Final/8x9.tres" id="63_ucojb"]
+[ext_resource type="Resource" uid="uid://bbkvgigo6wepo" path="res://resources real/varied/question/Questão Boss Final/12x4.tres" id="64_w55ku"]
+[ext_resource type="Resource" uid="uid://dwjetrhi7ho4o" path="res://resources real/varied/question/Questão Boss Final/20 4.tres" id="65_em1bk"]
+[ext_resource type="Resource" uid="uid://74707lb772u2" path="res://resources real/varied/question/Questão Boss Final/30 5.tres" id="66_oqjvi"]
+[ext_resource type="Resource" uid="uid://c3kitaeavdb21" path="res://resources real/varied/question/Questão Divisão/45 9.tres" id="67_bg5gb"]
+[ext_resource type="Resource" uid="uid://cq3tx82rim4yw" path="res://resources real/varied/question/Questão Divisão/36 6.tres" id="68_7jaj8"]
+[ext_resource type="Resource" uid="uid://boelhottmfwy" path="res://resources real/varied/question/Questão Boss Final/42 7.tres" id="69_t5tpf"]
+[ext_resource type="Resource" uid="uid://chuloxkh8oh7w" path="res://resources real/varied/question/Questão Boss Final/48 8.tres" id="70_kenco"]
+[ext_resource type="Resource" uid="uid://ynf6grqk03x6" path="res://resources real/varied/question/Questão Divisão/24 8.tres" id="71_heneh"]
+[ext_resource type="Resource" uid="uid://8vdx0jvxnjje" path="res://resources real/varied/question/Questão Boss Final/18 3.tres" id="72_qpyiy"]
+[ext_resource type="Resource" uid="uid://itedj3vamvkr" path="res://resources real/varied/question/Questão Boss Final/27 9.tres" id="73_b8llc"]
+[ext_resource type="Resource" uid="uid://dradaegqrxo1w" path="res://resources real/varied/question/Questão Boss Final/35 5.tres" id="74_y7yaa"]
+[ext_resource type="Resource" uid="uid://xp18cqg35ag7" path="res://resources real/varied/question/Questão Boss Final/40 10.tres" id="75_oqjvi"]
+[ext_resource type="Resource" uid="uid://drlxwnl2a0m13" path="res://resources real/varied/question/Questão Boss Final/50 5.tres" id="76_bg5gb"]
+[ext_resource type="Resource" uid="uid://ccwjw03v63ndh" path="res://resources real/varied/question/Questão Boss Final/32 4.tres" id="77_7jaj8"]
+[ext_resource type="Resource" uid="uid://nd306pk0mu6i" path="res://resources real/varied/question/Questão Divisão/18 6.tres" id="78_qpyiy"]
+[ext_resource type="Resource" uid="uid://h05tv1xqfous" path="res://resources real/varied/question/Questão Divisão/21 7.tres" id="79_b8llc"]
+[ext_resource type="Resource" uid="uid://c7e3jq4ly2lvh" path="res://resources real/varied/question/Questão Divisão/49 7.tres" id="80_y7yaa"]
+[ext_resource type="Resource" uid="uid://bf78bunwi3m4g" path="res://resources real/varied/question/Questão Boss Final/63 9.tres" id="81_mlc0m"]
+[ext_resource type="Resource" uid="uid://d0ubvowpkew5o" path="res://resources real/varied/question/Questão Boss Final/16 2.tres" id="82_y7yaa"]
+[ext_resource type="Resource" uid="uid://c5khgxqmdy60h" path="res://resources real/varied/question/Questão Boss Final/28 4.tres" id="83_mlc0m"]
+[ext_resource type="Resource" uid="uid://bxmh7k6pyroix" path="res://resources real/varied/question/Questão Divisão/15 3.tres" id="84_mlc0m"]
+
+[sub_resource type="Resource" id="Resource_gpmd4"]
+script = ExtResource("2_6svnn")
+theme = Array[ExtResource("3_qkp2p")]([ExtResource("4_pxydg"), ExtResource("5_n1iq2"), ExtResource("6_vvvjs"), ExtResource("7_3mmmy"), ExtResource("8_ox7s5"), ExtResource("9_f7u3l"), ExtResource("10_72c2t"), ExtResource("11_1nmsd"), ExtResource("12_c5nvi"), ExtResource("13_8xbp3"), ExtResource("14_cdcmm"), ExtResource("15_em1bk"), ExtResource("16_oqjvi"), ExtResource("17_bg5gb"), ExtResource("18_7jaj8"), ExtResource("19_t5tpf"), ExtResource("20_kenco"), ExtResource("21_heneh"), ExtResource("22_qpyiy"), ExtResource("23_b8llc"), ExtResource("24_y7yaa"), ExtResource("25_mlc0m"), ExtResource("26_6tqg1"), ExtResource("27_xmin6"), ExtResource("28_nxvvw"), ExtResource("29_yplgo"), ExtResource("30_ushm4"), ExtResource("31_1ymgq"), ExtResource("32_upjui"), ExtResource("33_3f5d0"), ExtResource("34_hnv4n"), ExtResource("35_0gs57"), ExtResource("36_pukc7"), ExtResource("37_qjdvs"), ExtResource("38_hvhbe"), ExtResource("39_p7fyd"), ExtResource("40_n8i1b"), ExtResource("41_fixad"), ExtResource("42_8bo43"), ExtResource("43_p528o"), ExtResource("44_5jvlw"), ExtResource("45_mcofw"), ExtResource("46_8iy7j"), ExtResource("47_xgvuh"), ExtResource("48_ohe7q"), ExtResource("49_lqv3p"), ExtResource("50_uqmde"), ExtResource("51_7ucqu"), ExtResource("52_on74l"), ExtResource("53_2skpi"), ExtResource("54_feyt7"), ExtResource("55_e6tju"), ExtResource("56_8x7mq"), ExtResource("57_ca8ed"), ExtResource("58_b3wjl"), ExtResource("59_2q3vl"), ExtResource("60_stio4"), ExtResource("61_el5uo"), ExtResource("62_l6otv"), ExtResource("63_ucojb"), ExtResource("64_w55ku"), ExtResource("65_em1bk"), ExtResource("66_oqjvi"), ExtResource("67_bg5gb"), ExtResource("68_7jaj8"), ExtResource("69_t5tpf"), ExtResource("70_kenco"), ExtResource("71_heneh"), ExtResource("72_qpyiy"), ExtResource("73_b8llc"), ExtResource("74_y7yaa"), ExtResource("75_oqjvi"), ExtResource("76_bg5gb"), ExtResource("77_7jaj8"), ExtResource("78_qpyiy"), ExtResource("79_b8llc"), ExtResource("80_y7yaa"), ExtResource("81_mlc0m"), ExtResource("82_y7yaa"), ExtResource("83_mlc0m"), ExtResource("84_mlc0m")])
+metadata/_custom_type_script = "uid://4ssky8o7a05n"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qkp2p"]
+atlas = ExtResource("7_6svnn")
+region = Rect2(0, 0, 455, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pxydg"]
+atlas = ExtResource("7_6svnn")
+region = Rect2(455, 0, 455, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gpmd4"]
+atlas = ExtResource("7_6svnn")
+region = Rect2(910, 0, 455, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_esugs"]
+atlas = ExtResource("8_pxydg")
+region = Rect2(0, 0, 490, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tgi4i"]
+atlas = ExtResource("8_pxydg")
+region = Rect2(490, 0, 490, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0flwe"]
+atlas = ExtResource("8_pxydg")
+region = Rect2(980, 0, 490, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n25di"]
+atlas = ExtResource("9_gpmd4")
+region = Rect2(0, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_psrt4"]
+atlas = ExtResource("9_gpmd4")
+region = Rect2(384, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_elqed"]
+atlas = ExtResource("9_gpmd4")
+region = Rect2(768, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ko5x7"]
+atlas = ExtResource("9_gpmd4")
+region = Rect2(1152, 0, 384, 864)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oiirq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qkp2p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pxydg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gpmd4")
+}],
+"loop": true,
+"name": &"dano",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_esugs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tgi4i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0flwe")
+}],
+"loop": true,
+"name": &"parado",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n25di")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_psrt4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_elqed")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ko5x7")
+}],
+"loop": true,
+"name": &"tomano",
+"speed": 3.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rcg7s"]
+atlas = ExtResource("9_tgi4i")
+region = Rect2(0, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c66ab"]
+atlas = ExtResource("9_tgi4i")
+region = Rect2(376, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eoa7m"]
+atlas = ExtResource("9_tgi4i")
+region = Rect2(752, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tkmd4"]
+atlas = ExtResource("9_tgi4i")
+region = Rect2(1128, 0, 376, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e7ilh"]
+atlas = ExtResource("10_0flwe")
+region = Rect2(0, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5x7i"]
+atlas = ExtResource("10_0flwe")
+region = Rect2(378, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_58hik"]
+atlas = ExtResource("10_0flwe")
+region = Rect2(756, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_odiet"]
+atlas = ExtResource("10_0flwe")
+region = Rect2(1134, 0, 378, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rtama"]
+atlas = ExtResource("11_n25di")
+region = Rect2(0, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hjm0e"]
+atlas = ExtResource("11_n25di")
+region = Rect2(384, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qqifl"]
+atlas = ExtResource("11_n25di")
+region = Rect2(768, 0, 384, 864)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uw1i2"]
+atlas = ExtResource("11_n25di")
+region = Rect2(1152, 0, 384, 864)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ej0a7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rcg7s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c66ab")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eoa7m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tkmd4")
+}],
+"loop": true,
+"name": &"dardano",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e7ilh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5x7i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_58hik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_odiet")
+}],
+"loop": true,
+"name": &"parado",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rtama")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hjm0e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qqifl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uw1i2")
+}],
+"loop": true,
+"name": &"tomanocu",
+"speed": 4.0
+}]
+
+[node name="Boss Final" type="Node2D"]
+script = ExtResource("1_yjynl")
+quiz = SubResource("Resource_gpmd4")
+color_right = Color(0, 1, 0, 1)
+color_wrong = Color(1, 0, 0, 1)
+
+[node name="Preto" type="Sprite2D" parent="."]
+position = Vector2(902.75, 363)
+scale = Vector2(3.31778, 3.26)
+texture = ExtResource("2_fluq4")
+
+[node name="Unnamed" type="Sprite2D" parent="."]
+position = Vector2(903, 408.25)
+scale = Vector2(0.530324, 0.865079)
+texture = ExtResource("6_gpmd4")
+
+[node name="Parale2" type="Sprite2D" parent="."]
+position = Vector2(573.5, 35.25)
+scale = Vector2(2.44792, 1.04167)
+texture = ExtResource("3_6svnn")
+
+[node name="Losa" type="Sprite2D" parent="."]
+position = Vector2(265, 359)
+scale = Vector2(0.862745, 2.09884)
+texture = ExtResource("4_qkp2p")
+
+[node name="Content" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Questão" type="VBoxContainer" parent="Content"]
+layout_mode = 1
+offset_left = 27.0
+offset_top = 110.0
+offset_right = 507.0
+offset_bottom = 238.0
+
+[node name="Label" type="Label" parent="Content/Questão"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 80
+text = "Pergunta"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Resposta" type="VBoxContainer" parent="Content"]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 330.0
+offset_right = 501.0
+offset_bottom = 645.0
+theme_override_constants/separation = 20
+
+[node name="Button" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Button2" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Button3" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Button4" type="Button" parent="Content/Resposta"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="Tempo" type="Label" parent="Content"]
+layout_mode = 0
+offset_left = 410.0
+offset_top = 50.0
+offset_right = 533.0
+offset_bottom = 91.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Tempo"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Acertos" type="Label" parent="Content"]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 45.0
+offset_right = 168.0
+offset_bottom = 85.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+autostart = true
+
+[node name="Parale" type="Sprite2D" parent="."]
+position = Vector2(1161.5, 687)
+scale = Vector2(1.44097, 1.55556)
+texture = ExtResource("3_6svnn")
+
+[node name="VidaBoss" type="Label" parent="."]
+offset_left = 559.0
+offset_top = 18.0
+offset_right = 733.0
+offset_bottom = 81.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+
+[node name="VidaTexto" type="Label" parent="."]
+offset_left = 1053.0
+offset_top = 633.0
+offset_right = 1173.0
+offset_bottom = 675.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ManaTexto" type="Label" parent="."]
+offset_left = 1086.0
+offset_top = 675.0
+offset_right = 1178.0
+offset_bottom = 710.0
+theme_override_colors/font_color = Color(0, 0.0156863, 1, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="NomeCaloca" type="Label" parent="."]
+offset_left = 1173.0
+offset_top = 602.0
+offset_right = 1268.0
+offset_bottom = 653.0
+theme_override_colors/font_color = Color(0.00392157, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "Caloca"
+
+[node name="BossFinal" type="CharacterBody2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="BossFinal"]
+position = Vector2(921.236, 385)
+scale = Vector2(1.46477, 0.746528)
+sprite_frames = SubResource("SpriteFrames_oiirq")
+animation = &"tomano"
+frame = 2
+frame_progress = 0.893799
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BossFinal"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("8_esugs")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player"]
+position = Vector2(683, 556)
+scale = Vector2(0.41666, 0.296599)
+sprite_frames = SubResource("SpriteFrames_ej0a7")
+animation = &"parado"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
